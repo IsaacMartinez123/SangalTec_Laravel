@@ -57,7 +57,7 @@ class VentasController extends Controller
         }
 
         try {
-
+            
             DB::beginTransaction();
 
             $ventas = Ventas::create([
